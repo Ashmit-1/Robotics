@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        body{
+            background-color: #231f1f;
+            color: azure;
+        }
+        table{
+            border-collapse: collapse;
+            
+        }
+        th{
+            font-size: 30px;
+            background-color: #0289f0;
+           
+        }
+        td{
+            font-size: 20px;
+            
+        }
+         tr,td{
+            border: 3px solid #ffffff ;
+            
+        } 
+        .projects{
+            background-color: #6b6262;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>Projects</th>
+            <th>Details</th>
+            <th>Video</th>
+        </tr>
+        <tr>
+            <td class="projects">AUTOMATIC DOOR</td>
+            
+            <td class="details">This is a model on automatic gate/door. Sometimes when we are busy, we find it difficult to answer the bell and open the door, or to some people it is physically challenging to get up and open a gate often. So, we have designed this simple yet effective answer to the above mentioned problem. Here, we are using an infrared sensor which detects the presence of a person in front of the door and automatically responds by activating two geared motors which actuated the opening and closing of the gates/doors.
+            <br />The sensor can be placed tactically in case there is a security concern and its position is disclosed only to trusted individuals.
+            </td>
+
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/2XtMjGdavF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">AUTOMATIC NIGHT LAMP WITH ARDUINO AND LDR</td>
+            <td class="details">In this project we have built an Arduino based automatic night-lamp using a LDR (light-dependent-resistor).  A LDR is a type of light detector, when light falls on it, its resistance decreases and vice versa. By utilizing this property and a few basics about current division in branches, our device has been developed. <br />This project can also be done without the Arduino UNO by using a BC547 transistor but in this project we basically want to demonstrate the interfacing of LDR with Arduino UNO and the relevant programming. The following video will demostrate the working of our device.
+            </td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/YqhTGmHygsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">WALL FOLLOWING ROBOT</td>
+            <td class="details">In today's project we have built a wall-following robot. It consists of two Infrared sensors. One on the left to detect the wall by its side and other in the front to detect when to take a turn. Our robot follows a simple closed loop to carry out the designated function.<br />Providing it with PID(proportional-integrated-derivative) control will exponentially increase the smoothness of operation and will be able to handle complex turns. But, that would require an Ultrasonic sensor rather than an Infrared one.<br />When placed near a wall, it will continue moving along the wall keeping it on the left unless it gets an obstacle when it backs up a little, takes a right turn and continue as before.</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/l_USq-PDWsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">TEMPERATURE SENSOR WITH LM35 AND ARDUINO UNO</td>
+            <td class="details">Sensing any physical parameter in real-time is always a fascinating job. In this project we have made a temperature sensing device capable of detecting temperature in real time using LM35 as the sensor and Arduino UNO development board.<br />The voltage output of the LM35 sensor is directly proportional to the ambient temperature around it.<br />Relevant programming can convert this voltage into equivalent temperature in Celcius scale as we have demonstrated in our project.<br />We have programmed our device to display the output both on serial monitor of Arduino IDE and on a 16x2 LCD screen which we have interfaced with our Arduino UNO.</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/Ul9EfyGk4B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">INTERFACING SERVO MOTOR WITH ARDUINO</td>
+            <td class="details">A servo motor is a precision control motor which can be controlled to move at specific angles. It has an internal feed back system which enables it to perform such feats. Its range of motion is 180 degree with high torque and low speed unless modified for custom usage. It can be controlled via a wide range of processors and controllers. Today we are using our handy Arduino UNO to interface it.</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/FLZQc0NUUeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">DANCING ROBOT</td>
+            <td class="details">This is our first project based on sound sensor. We have made a humanoid robot that can entertain us with it cool robot dance moves. When ever it senses sound above a threshold value, it will start to dance.<br />The threshold can be adjusted using the programming interface as per our liking. The movements are actuated with the help of geared motors.</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/C_NqUoGrafE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">EDGE AVOIDING ROBOT</td>
+            <td class="details">An edge avoidance robot is one which is capable of changing its path once it reaches the edge of a platform to avoid accidental tripping over. This technique has a good potential for practical applications ranging from toys for children to wheelchairs for the physically challenged or delicate instrument platforms in earthquake prone zones through suitable modifications.<br />In this demonstration model we are using two infrared sensors to sense the distance between the foreground and the robot base. I believe an ultrasonic sensor can also be employed for the purpose if it suits one's necessity.<br />The programming is done in a manner that the robot will move in a straight path once turned on; in case of detection of a sudden depression, the robot will back down for a moment, change its path and continue until another similar situation arise.</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/w5EL-GtqkXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">GEARED BOT</td>
+            <td class="details">This is our first project on gearing concept. Here we have built a car with gear ratio of 2:1. As a result, the speed of the driven shaft is twice that of the driving shaft.<br />To give sturdiness to the bot, we have compromised with the flexibility in direction changing capability. But one can easily put the wheels on separate drive shafts to get directional flexibility.<br />We, for the first time, have not programmed our bot. Rather we are using the in-built wifi connectivity of the processor to operate our car.</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/cjnYrLDpPeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">DIGITAL I/P AND O/P WITH ARDUINO ALONG WITH USE OF SERIAL MONITOR IN ARDUINO IDE</td>
+            <td class="details">This is a small but very useful exercise for providing and obtaining digital i/p and o/p from an Arduino uno development board simultaneously. In this particular demonstration, we have used a micro push-button switch as input and a LED as output. But, the same logic can be applied with and digital i/p and o/p device as per the necessity of a project.<br />Along with this, we are also showing how to print something on the Serial Monitor of Arduino IDE software which is the visual interface for Arduino development boards.</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/M9lUIBVH3eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td class="projects">A 3D PRIINTED CANOE</td>
+            <td class="details">This is a 3d printed canoe designed by a student at Vision Education. The designing was done with Autodesk 123d Design software using tools like Spline, Extrude, Shell, Fillet etc.</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/SyH7mqxtWsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
